@@ -7,8 +7,10 @@
  * Time: 11:08
  */
 
+
 $prenom = $_POST['nom'];
 $nom = $_POST['prenom'];
+
 $photo = $_POST['photo'];
 $vote = $_POST[]
 
@@ -16,7 +18,8 @@ $vote = $_POST[]
 
 $connect = getConnection();
 
-$sql = "INSERT INTO chaussettes (nom, prenom, photo, vote) values ('$prenom', '$nom', '$photo')";
+
+$sql = "INSERT INTO chaussettes (nom, prenom, photo) values ('$nom', '$prenom', '$photo')";
 execSql($connect, $sql);
 
-header("location:../public/index.php");
+header("location:../public/gallerie.php");

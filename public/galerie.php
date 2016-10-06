@@ -21,9 +21,9 @@
             $request = "select * from chaussettes";
             $result = execSql($connect, $request);
             ?>
-            <?php while ($user = $result->fetch_assoc()): ?>
+            <?php while ($chaussettes = $result->fetch_assoc()): ?>
                 <tr>
-                    <td><?php echo $photo['Photo']; ?></td>
+                    <td><img src=" <?php echo $chaussettes['photo']; ?>"></td>
                 </tr>
             <?php endwhile; ?>
         </table>
