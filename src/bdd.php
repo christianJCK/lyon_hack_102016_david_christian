@@ -2,9 +2,9 @@
 
     function getConnection() {
         $user = "root";
-        $password = "suline1982d";
+        $password = "jecode4laloupe";
         $host = "localhost";
-        $db = "sucksandlove";
+        $db = "socksandlove";
 
         $mysqli = new mysqli($host, $user, $password, $db);
         if ($mysqli->connect_errno) {
