@@ -7,15 +7,15 @@
  * Time: 11:08
  */
 
-$first_name = $_POST['nom'];
-$last_name = $_POST['prenom'];
+$nom = $_POST['nom'];
+$prenom = $_POST['prenom'];
 $photo = $_POST['photo'];
 
 //echo $nom, $prenom, $age, $photo;
 
 $connect = getConnection();
 
-$sql = "INSERT INTO socksandlove (nom, prenom, photo) values ('$first_name', '$last_name', '$photo')";
+$sql = "INSERT INTO chaussettes (nom, prenom, photo) values ('$nom', '$prenom', '$photo')";
 execSql($connect, $sql);
 
-header("location:../public/index.php");
+header("location:../public/gallerie.php");
