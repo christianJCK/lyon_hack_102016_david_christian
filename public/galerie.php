@@ -7,7 +7,7 @@
         </head>
         <body>
         <header>
-            <h1>Gallerie</h1>
+            <h1>Galerie</h1>
         </header>
 
         <table>
@@ -18,7 +18,7 @@
 
             <?php
             $connect = getConnection();
-            $request = "select * from socksandlove";
+            $request = "select * from chaussettes";
             $result = execSql($connect, $request);
             ?>
             <?php while ($user = $result->fetch_assoc()): ?>

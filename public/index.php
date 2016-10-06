@@ -13,13 +13,13 @@
                     <form name="contact" action="../src/form.php" method="post">
                         <div class="form-group">
                             <label>Nom:
-                                <input type="text" value="" name="first_name"/>
+                                <input type="text" value="" name="prenom"/>
                                 <br/>
                             </label>
                         </div>
                         <div class="form-group">
                             <label>Prénom:
-                                <input type="text" value="" name="last_name"/>
+                                <input type="text" value="" name="nom"/>
                                 <br/>
                             </label>
                         </div>
