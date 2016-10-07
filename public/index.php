@@ -2,18 +2,22 @@
 <html xmlns="http://www.w3.org/1999/html">
         <head>
             <meta charset="utf-8" name="viewport">
+            <link rel="stylesheet" href="css/style.css">
             <title>SocksAndLove</title>
         </head>
         <body>
         <header>
-            <h1>Ajout d'image</h1>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-3 col-xs-12">
+                    <h1>SocksAndLove</h1>
+                </div>
+            </div>
         </header>
             <section class="container-fluid">
                 <div class="container">
-                    <form name="contact" action="../src/form.php" method="post">
 
-                        <div class="row">
-                            <div class="col-md-offset-3 col-md-3">
+                    <form enctype="multipart/form-data" action="../src/form.php" method="post">
+                            <div class="col-md-offset-3 col-md-10 col-xs-12">
                                 <div class="form-group">
                                     <label>Nom:
                                         <input type="text" value="" name="nom"/>
@@ -21,9 +25,9 @@
                                     </label>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-offset-3 col-md-3">
+
+
+                            <div class="col-md-offset-3 col-md-10 col-xs-12">
                                 <div class="form-group">
                                     <label>Prénom:
                                         <input type="text" value="" name="prenom"/>
@@ -32,18 +36,19 @@
                                 </div>
                             </div>
 
-                        </div>
-                        <div class="row">
-                            <div class="col-md-offset-3 col-md-3">
+
+
+                            <div class="col-md-offset-3 col-md-10 col-xs-12">
+
                                 <div class="form-group">
                                     <label for="fileupload"> Sélectionner une photo:
-                                    <input type="file" name="photo" accept="image/*>
+                                    <input type="file" name="photo" accept="image/*">
                                     </label>
-
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-offset-3">
+
+
+                        <div class="col-md-offset-3 col-md-3 col-xs-12">
                             <button type="submit" class="btn btn-default">Envoyer</button>
                         </div>
                     </form>
