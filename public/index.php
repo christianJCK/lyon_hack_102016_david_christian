@@ -12,18 +12,6 @@
                 <div class="container">
                     <form name="contact" action="../src/form.php" method="post">
 
-                        <div class="form-group">
-                            <label>Nom:
-                                <input type="text" value="" name="prenom"/>
-                                <br/>
-                            </label>
-                        </div>
-                        <div class="form-group">
-                            <label>Prénom:
-                                <input type="text" value="" name="nom"/>
-                                <br/>
-                            </label>
-
                         <div class="row">
                             <div class="col-md-offset-3 col-md-3">
                                 <div class="form-group">
