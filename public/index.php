@@ -54,6 +54,26 @@
                     </form>
                 </div>
             </section>
+
+            <section class="container-fluid">
+                <div class="container">
+                    <h1>Connexion à la galerie</h1>
+                    <form action="login.php" method="post">
+                        <div class="form-group">
+                            <label>Nom:
+                            <input type="text" name="nom" />
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>Prénom:
+                                <input type="text" name="prenom" />
+                            </label>
+                        </div>
+                        <input type="submit" value="Valider" />
+
+                    </form>
+                </div>
+            </section>
         <a href="gallerie.php">gallerie</a>
 
         <footer>
