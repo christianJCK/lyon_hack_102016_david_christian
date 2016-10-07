@@ -2,7 +2,7 @@
 
     function getConnection() {
         $user = "root";
-        $password = "suline1982d";
+        $password = "jecode4laloupe";
         $host = "localhost";
         $db = "socksandlove";
 
