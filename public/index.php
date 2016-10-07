@@ -11,7 +11,7 @@
         <img src="img/logo.jpg" id="logo" alt="wildcodeschool" class="img-responsive"/>
         <header>
             <div class="row">
-                <div class=" col-xs-12 col-md-offset-4 col-md-4">
+                <div class=" col-xs-12 col-md-offset-4 col-md-4" id="titre">
                     <h1>Socks&Love</h1>
                 </div>
             </div>
@@ -63,7 +63,7 @@
             <section class="container-fluid">
                 <div class="container">
 
-                    <h1>Connexion à la galerie</h1>
+                    <h2>Connexion à la galerie</h2>
 
                     <div class="col-xs-12 col-md-offset-4 col-md-4" id="bloc2">
                     <form action="../src/login.php" method="post">

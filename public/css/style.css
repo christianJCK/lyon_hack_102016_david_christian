@@ -11,12 +11,23 @@ div h1 {
     text-align: center;
     font-family: Sawasdee;
     font-size: 35px;
-    border: dashed darkorange;
-    border-width: thin;
+    font-weight: 600;
+    /*border: dashed darkorange;
+    border-width: thin;*/
     color: white;
-    text-shadow: 0 0 3px #111;
-    background-color: rgba(0,0,0,0.5);
+    border-color: #000000;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    /*background-color: rgba(0,0,0,0.5);*/
+}
 
+div h2 {
+    color: white;
+    border-color: #000000;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+    font-family: Sawasdee;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 
@@ -54,6 +65,7 @@ div h1 {
     border-bottom-color: black;
     border-bottom-width: thick;
     z-index: -1;
+
 }
 
 @media screen and (max-width: 991px) {
