@@ -23,7 +23,7 @@
             ?>
             <?php while ($chaussettes = $result->fetch_assoc()): ?>
                 <tr>
-                    <td><img src=" <?php echo $chaussettes['photo']; ?>"></td>
+                    <td><img src=" <?php echo $chaussettes['photo']; ?>" width="300" height="200"></td>
                 </tr>
             <?php endwhile; ?>
         </table>
