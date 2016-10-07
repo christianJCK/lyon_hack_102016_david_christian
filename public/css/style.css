@@ -53,6 +53,7 @@ div h1 {
     border-bottom: dashed;
     border-bottom-color: black;
     border-bottom-width: thick;
+    background-repeat: repeat-x;
     z-index: -1;
 }
 
