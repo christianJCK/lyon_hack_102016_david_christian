@@ -9,24 +9,37 @@ body {
 
 div h1 {
     text-align: center;
-    font-family: Loma;
+    font-family: Sawasdee;
     font-size: 35px;
-    border: dotted yellow;
+    border: dashed darkorange;
+    border-width: thin;
     color: white;
     text-shadow: 0 0 3px #111;
+    background-color: rgba(0,0,0,0.5);
 
 }
 
 
-/* body */
+
+/* index.php */
 
 #logo {
     position: absolute;
-
     width: 200px;
     height: auto;
     padding-left: 50px;
     padding-top: 20px;
+}
+
+#bg_galerie {
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.1;
 }
 
 
@@ -57,19 +70,19 @@ div h1 {
 
 #bloc{
     background-color: rgba(255,255,255,0.8);
+    padding: 20px;
 }
 
 #bloc2 {
     background-color: rgba(255,255,255,0.8);
+    padding: 20px;
 }
 
-/*
-#blanc {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding-left: 400px;
-}*/
+/* galerie.php */
+
+table th {
+    font-family: Sawasdee;
+    font-size: 25px;
+}
+
+

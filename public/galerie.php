@@ -3,16 +3,18 @@
     <html>
         <head>
             <meta charset="utf-8" name="viewport">
+            <link rel="stylesheet" href="css/style.css">
             <title>SocksAndLove</title>
         </head>
         <body>
+        <img src="img/happysocks.jpg" id="bg_galerie" alt="socks">
         <header>
-            <h1>Galerie</h1>
+            <div id="titre"><h1>Galerie</h1></div>
         </header>
 
         <table>
             <tr>
-                <th>Photo</th>
+                <th>Photo des participants</th>
             </tr>
 
 
