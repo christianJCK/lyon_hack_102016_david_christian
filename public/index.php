@@ -64,8 +64,10 @@
                 <div class="container">
 
                     <h1>Connexion à la galerie</h1>
+
                     <div class="col-xs-12 col-md-offset-4 col-md-4" id="bloc2">
-                    <form action="login.php" method="post">
+                    <form action="../src/login.php" method="post">
+
                         <div class="form-group">
                             <label>Nom:<br>
                             <input type="text" name="nom" />
@@ -84,7 +86,7 @@
                         </div>
                 </div>
             </section>
-            </div>
+        </div>
         <a href="galerie.php">galerie</a>
 
         <footer>
