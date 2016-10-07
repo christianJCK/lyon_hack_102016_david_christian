@@ -7,7 +7,7 @@
         </head>
         <body>
         <header>
-            <h1>Gallerie</h1>
+            <h1>Galerie</h1>
         </header>
 
         <table>
