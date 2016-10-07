@@ -19,9 +19,9 @@ if (isset($_POST['nom']) && ($_POST['prenom'])) {
            // $_SESSION['nom'] = $user['nom'];
             //$_SESSION['prenom'] = $user['prenom'];
            // echo "Bienvenue " . htmlspecialchars($user['nom']);
-            header("location:../public/galerie.php?id=" . $user['id']);
+            header("location:../public/galerie.php?id=");
 
-            exit();
+
 
 
         } else {
