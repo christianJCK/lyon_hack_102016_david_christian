@@ -1,21 +1,21 @@
 <?php include "../src/bdd.php"; ?>
 <?php
-/**
- * Created by PhpStorm.
- * User: david
- * Date: 22/09/16
- * Time: 11:08
- */
 
 $nom = $_POST['nom'];
 $prenom = $_POST['prenom'];
-$photo = $_POST['photo'];
+
+$file_path = "../public/images/";
+$file_path = $file_path . time(). basename( $_FILES['photo']['name']);
+
+move_uploaded_file($_FILES['photo']['tmp_name'], $file_path);
+
+
 
 //echo $nom, $prenom, $age, $photo;
 
 $connect = getConnection();
 
-$sql = "INSERT INTO chaussettes (nom, prenom, photo) values ('$nom', '$prenom', '$photo')";
+$sql = "INSERT INTO chaussettes (nom, prenom, photo) values ('$nom', '$prenom', '$file_path')";
 execSql($connect, $sql);
 
 header("location:../public/gallerie.php");
