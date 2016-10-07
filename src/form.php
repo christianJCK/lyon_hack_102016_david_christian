@@ -11,7 +11,7 @@ move_uploaded_file($_FILES['photo']['tmp_name'], $file_path);
 
 
 
-//echo $nom, $prenom, $age, $photo;
+
 
 $connect = getConnection();
 

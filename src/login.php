@@ -1,31 +1,13 @@
 <?php include "../src/bdd.php"; ?>
 <?php
 
+    $nom = $_POST['nom'];
+    $prenom = $_POST['prenom'];
 
-// Vérification des identifiants
+if (isset($_POST['nom']) && ($_POST['prenom'])) {
 
-$req = $socksandlove->prepare('SELECT id FROM chaussettes WHERE nom = :nom AND prenom = :prenom');
+    $connect = getConnection();
+    $sql = 'SELECT id FROM chaussettes WHERE nom = :nom AND prenom = :prenom';
+    $result = execSql($connect, $sql);
 
-$req->execute(array(
-
-    'nom' => $nom,
-
-    'prenom' => $prenom));
-
-
-$resultat = $req->fetch();
-
-if (!$resultat)
-
-{
-    echo 'Mauvais identifiant!';
-}
-
-else
-
-{
-    session_start();
-    $_SESSION['id'] = $resultat['id'];
-    $_SESSION['nom'] = $nom;
-    echo 'Vous êtes connecté !';
 }

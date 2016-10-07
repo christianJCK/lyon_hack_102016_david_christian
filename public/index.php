@@ -1,3 +1,5 @@
+<?php include "../src/login.php"; ?>
+<?php include "../src/bdd.php"; ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html">
         <head>
@@ -56,7 +58,7 @@
             <section class="container-fluid">
                 <div class="container">
                     <h1>Connexion à la galerie</h1>
-                    <form action="login.php" method="post">
+                    <form action="../src/login.php" method="post">
                         <div class="form-group">
                             <label>Nom:
                             <input type="text" name="nom" />
