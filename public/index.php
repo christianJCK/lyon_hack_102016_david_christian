@@ -7,9 +7,10 @@
         </head>
         <body>
         <img src="img/happysocks.jpg" id="bg" alt="socks"/>
+        <img src="img/logo.jpg" id="logo" alt="wildcodeschool" class="img-responsive"/>
         <header>
             <div class="row">
-                <div class=" col-xs-12 col-md-offset-4 col-md-3">
+                <div class=" col-xs-12 col-md-offset-4 col-md-4">
                     <h1>Socks&Love</h1>
                 </div>
             </div>
@@ -17,9 +18,9 @@
         <div id="formulaire">
             <section class="container-fluid" id="section1">
                 <div class="container">
-
+                <div class="col-xs-12 col-md-offset-4 col-md-4" id="bloc">
                     <form enctype="multipart/form-data" action="../src/form.php" method="post">
-                            <div class="col-xs-12 col-md-offset-4 col-md-10">
+                            <div class="col-xs-12">
                                 <div class="form-group">
                                     <label>Nom:<br>
                                         <input type="text" value="" name="nom"/>
@@ -29,7 +30,7 @@
                             </div>
 
 
-                            <div class="col-xs-12 col-md-offset-4 col-md-10">
+                            <div class="col-xs-12">
                                 <div class="form-group">
                                     <label>Prénom:<br>
                                         <input type="text" value="" name="prenom"/>
@@ -40,7 +41,7 @@
 
 
 
-                            <div class="col-xs-12 col-md-offset-4 col-md-10">
+                            <div class="col-xs-12">
 
                                 <div class="form-group">
                                     <label for="fileupload"> Sélectionner une photo:<br>
@@ -50,18 +51,22 @@
                             </div>
 
 
-                        <div class="col-xs-12 col-md-offset-4 col-md-3">
+                        <div class="col-xs-12">
                             <button type="submit" class="btn btn-default">Envoyer</button>
                         </div>
                     </form>
+                    </div>
                 </div>
             </section>
 
             <section class="container-fluid">
                 <div class="container">
-                    <div class="col-xs-12 col-md-offset-4 col-md-3">
+
                     <h1>Connexion à la galerie</h1>
+
+                    <div class="col-xs-12 col-md-offset-4 col-md-4" id="bloc2">
                     <form action="../src/login.php" method="post">
+
                         <div class="form-group">
                             <label>Nom:<br>
                             <input type="text" name="nom" />
@@ -80,7 +85,7 @@
                         </div>
                 </div>
             </section>
-            </div>
+        </div>
         <a href="galerie.php">galerie</a>
 
         <footer>

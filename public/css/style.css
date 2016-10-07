@@ -1,5 +1,6 @@
 body {
     padding: 0;
+    padding-top: 30px;
     margin: 0;
     display: list-item;
 }
@@ -19,6 +20,16 @@ div h1 {
 
 /* body */
 
+#logo {
+    position: absolute;
+
+    width: 200px;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+
 #bg {
     position: fixed;
     top: 0;
@@ -26,7 +37,16 @@ div h1 {
     width: 100%;
     height: auto;
     background-size: cover;
+    border-bottom: dashed;
+    border-bottom-color: black;
+    border-bottom-width: thick;
     z-index: -1;
+}
+
+@media screen and (max-width: 991px) {
+    #logo {
+        display: none;
+    }
 }
 
 #container {
@@ -35,8 +55,13 @@ div h1 {
     background-color: white;
 }
 
+#bloc{
+    background-color: rgba(255,255,255,0.8);
+}
 
-
+#bloc2 {
+    background-color: rgba(255,255,255,0.8);
+}
 
 /*
 #blanc {
