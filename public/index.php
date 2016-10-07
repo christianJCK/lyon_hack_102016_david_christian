@@ -6,20 +6,22 @@
             <title>SocksAndLove</title>
         </head>
         <body>
+        <img src="img/happysocks.jpg" id="bg" alt="socks"/>
         <header>
             <div class="row">
-                <div class="col-md-offset-3 col-md-3 col-xs-12">
-                    <h1>SocksAndLove</h1>
+                <div class=" col-xs-12 col-md-offset-4 col-md-3">
+                    <h1>Socks&Love</h1>
                 </div>
             </div>
         </header>
-            <section class="container-fluid">
+        <div id="formulaire">
+            <section class="container-fluid" id="section1">
                 <div class="container">
 
                     <form enctype="multipart/form-data" action="../src/form.php" method="post">
-                            <div class="col-md-offset-3 col-md-10 col-xs-12">
+                            <div class="col-xs-12 col-md-offset-4 col-md-10">
                                 <div class="form-group">
-                                    <label>Nom:
+                                    <label>Nom:<br>
                                         <input type="text" value="" name="nom"/>
                                         <br/>
                                     </label>
@@ -27,9 +29,9 @@
                             </div>
 
 
-                            <div class="col-md-offset-3 col-md-10 col-xs-12">
+                            <div class="col-xs-12 col-md-offset-4 col-md-10">
                                 <div class="form-group">
-                                    <label>Prénom:
+                                    <label>Prénom:<br>
                                         <input type="text" value="" name="prenom"/>
                                         <br/>
                                     </label>
@@ -38,17 +40,17 @@
 
 
 
-                            <div class="col-md-offset-3 col-md-10 col-xs-12">
+                            <div class="col-xs-12 col-md-offset-4 col-md-10">
 
                                 <div class="form-group">
-                                    <label for="fileupload"> Sélectionner une photo:
+                                    <label for="fileupload"> Sélectionner une photo:<br>
                                     <input type="file" name="photo" accept="image/*">
                                     </label>
                                 </div>
                             </div>
 
 
-                        <div class="col-md-offset-3 col-md-3 col-xs-12">
+                        <div class="col-xs-12 col-md-offset-4 col-md-3">
                             <button type="submit" class="btn btn-default">Envoyer</button>
                         </div>
                     </form>
@@ -57,24 +59,29 @@
 
             <section class="container-fluid">
                 <div class="container">
+                    <div class="col-xs-12 col-md-offset-4 col-md-3">
                     <h1>Connexion à la galerie</h1>
                     <form action="login.php" method="post">
                         <div class="form-group">
-                            <label>Nom:
+                            <label>Nom:<br>
                             <input type="text" name="nom" />
                             </label>
                         </div>
+
+
                         <div class="form-group">
-                            <label>Prénom:
+                            <label>Prénom:<br>
                                 <input type="text" name="prenom" />
                             </label>
                         </div>
                         <input type="submit" value="Valider" />
 
                     </form>
+                        </div>
                 </div>
             </section>
-        <a href="gallerie.php">gallerie</a>
+            </div>
+        <a href="galerie.php">galerie</a>
 
         <footer>
 
@@ -83,7 +90,5 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
         </body>
-
-    </html>
+</html>
